@@ -112,8 +112,6 @@ public class List<T>{
         }
         return current.getData();
         
-    }
-
-    
+    }  
 
 }

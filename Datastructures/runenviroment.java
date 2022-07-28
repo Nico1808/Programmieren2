@@ -3,13 +3,17 @@ package Datastructures;
 public class runenviroment {
     public static void main(String[] args) {
 
-        Queue<String> q = new Queue();
+        BinaryTree<Integer> b = new BinaryTree<>();
 
-        q.enqueue("item1");
-        q.enqueue("item2");
-        q.enqueue("item3");
-
-        System.out.println(q.dequeue());
-        
+        b.add(5);
+        b.add(3);
+        b.add(10);
+        b.add(1);
+        b.add(15);
+        b.add(4);
+        b.add(8);
+        b.printPreOrder();
+        b.printInOrder();
+        b.printPostOrder();
     }
 }
